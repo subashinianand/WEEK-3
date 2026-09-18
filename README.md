@@ -3,11 +3,13 @@ E-COMMERCE ORDER MANAGEMENT DATABASE SYSTEM
 WEEK 3: SELLER AND INVENTORY MANAGEMENT SYSTEM
 
 PROJECT OVERVIEW
+
 The E-Commerce Order Management Database System is designed to organize and manage important information in an e-commerce environment.
 This project focuses on the Seller and Inventory Management Module and covers Seller and Inventory table design, relationships, constraints, 
 seller and inventory record insertion, CRUD operations, inventory management, and inventory analysis.
 
 OBJECTIVES
+
 Analyze the requirements of the Seller and Inventory Management System.
 Identify the Seller and Inventory entities required for the module.
 Design the Seller and Inventory tables with appropriate attributes.
@@ -21,14 +23,19 @@ Update inventory after new stock arrival.
 Remove discontinued inventory records.
 Analyze inventory using aggregate operations.
 Verify the database operations through execution outputs.
+
+
 ENTITIES IDENTIFIED
+
 The following entities are used for the Week 3 Seller and Inventory Management System:
 
 Seller
+
 Inventory
 The Product table from Week 2 is also connected with the Inventory table through Product_ID.
 
 SELLER TABLE
+
 The Seller table is designed with the following attributes and constraints:
 
 Field Name	Data Type	Constraint
@@ -47,7 +54,9 @@ Seller_ID	VARCHAR(10)	FOREIGN KEY, NOT NULL
 Stock_Quantity	INT	NOT NULL, DEFAULT 0, CHECK
 Stock_Status	VARCHAR(20)	NOT NULL, CHECK
 Last_Updated	DATE	NOT NULL
+
 DATABASE OPERATIONS
+
 The project implements the following operations for managing seller and inventory records:
 
 CREATE – Creates the Seller and Inventory tables.
@@ -87,8 +96,10 @@ Find Total Products Available
 Find Products Out of Stock
 Find Highest Stocked Products
 Find Average Inventory Quantity
+
 INVENTORY MANAGEMENT
-The project performs inventory management operations to:
+
+     The project performs inventory management operations to:
 
 Display all available products.
 Find products that are out of stock.
@@ -112,7 +123,9 @@ The ER diagram represents the relationships between the Category, Product, Inven
 Category – Product: One category can contain many products.
 Product – Inventory: One product can have inventory information.
 Seller – Inventory: One seller can manage multiple inventory records.
+
 CONCLUSION
+
 The project establishes a structured Seller and Inventory Management Module for the E-Commerce Order Management Database System.
 It covers table design, relationships, constraints, record insertion, CRUD operations, inventory management, and inventory analysis. 
 The SQL execution results are verified through the corresponding output screenshots.
