@@ -1,7 +1,11 @@
 E-COMMERCE ORDER MANAGEMENT DATABASE SYSTEM
+
 WEEK 3: SELLER AND INVENTORY MANAGEMENT SYSTEM
+
 PROJECT OVERVIEW
-The E-Commerce Order Management Database System is designed to organize and manage important information in an e-commerce environment. This project focuses on the Seller and Inventory Management Module and covers Seller and Inventory table design, relationships, constraints, seller and inventory record insertion, CRUD operations, inventory management, and inventory analysis.
+The E-Commerce Order Management Database System is designed to organize and manage important information in an e-commerce environment.
+This project focuses on the Seller and Inventory Management Module and covers Seller and Inventory table design, relationships, constraints, 
+seller and inventory record insertion, CRUD operations, inventory management, and inventory analysis.
 
 OBJECTIVES
 Analyze the requirements of the Seller and Inventory Management System.
